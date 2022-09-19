@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:layout_gravity="center">
+
+
+    <EditText
+        android:id="@+id/edt_update_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="name" />
+
+    <EditText
+        android:id="@+id/edt_update_class"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edt_update_name"
+        android:hint="class" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="std"
+        android:layout_below="@+id/edt_update_class"
+        android:id="@+id/edt_update_std"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="attendence"
+        android:layout_below="@+id/edt_update_std"
+        android:id="@+id/edt_update_attendence"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="leave"
+        android:layout_below="@+id/edt_update_attendence"
+        android:id="@+id/edt_update_leave"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edt_update_leave"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="updet"
+            android:backgroundTint="#DD5F37"
+            android:id="@+id/update_btn"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

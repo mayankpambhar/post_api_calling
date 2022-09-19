@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-1"
+                android:textSize="30dp"
+                android:id="@+id/std1"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-2"
+                android:textSize="30dp"
+                android:id="@+id/std2"
+                android:layout_below="@+id/std1"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-3"
+                android:textSize="30dp"
+                android:id="@+id/std3"
+                android:layout_below="@id/std2"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-4"
+                android:textSize="30dp"
+                android:id="@+id/std4"
+                android:layout_below="@id/std3"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-5"
+                android:textSize="30dp"
+                android:id="@+id/std5"
+                android:layout_below="@id/std4"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-6"
+                android:textSize="30dp"
+                android:id="@+id/std6"
+                android:layout_below="@id/std5"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-7"
+                android:textSize="30dp"
+                android:id="@+id/std7"
+                android:layout_below="@id/std6"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-8"
+                android:textSize="30dp"
+                android:id="@+id/std8"
+                android:layout_below="@id/std7"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-9"
+                android:textSize="30dp"
+                android:id="@+id/std9"
+                android:layout_below="@id/std8"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-10"
+                android:textSize="30dp"
+                android:id="@+id/std10"
+                android:layout_below="@id/std9"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-11"
+                android:textSize="30dp"
+                android:id="@+id/std11"
+                android:layout_below="@id/std10"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="std:-12"
+                android:textSize="30dp"
+                android:id="@+id/std12"
+                android:layout_below="@id/std11"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Data"
+                android:textSize="30dp"
+                android:id="@+id/alldata"
+                android:layout_below="@id/std12"
+                android:layout_margin="10dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

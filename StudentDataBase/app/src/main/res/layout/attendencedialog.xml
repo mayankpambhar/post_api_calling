@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/present_btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="present"
+        android:textSize="10dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/absent_btn"
+        android:text="absent"
+        android:textSize="10dp"
+        android:layout_below="@id/present_btn"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/leave_btn"
+        android:text="leave"
+        android:textSize="10dp"
+        android:layout_below="@id/absent_btn"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="view attendence"
+        android:id="@+id/viewattendence"
+        android:layout_below="@id/leave_btn"/>
+
+
+</RelativeLayout>
